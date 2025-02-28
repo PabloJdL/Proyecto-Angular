@@ -1,0 +1,81 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #666666;
+  color: white;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: 2px solid rgba(0, 123, 255, 0.5);
+  outline-offset: 2px;
+}
+
+.add-btn {
+  display: block;
+  width: 200px;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 600px) {
+  button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  .btn-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

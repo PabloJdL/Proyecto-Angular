@@ -1,0 +1,53 @@
+{
+  "empleados": [
+    {
+      "id": "1",
+      "nombre": "Pepe",
+      "cargo": "Gerente",
+      "empresaId": 1,
+      "email": "pablo@example.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana Gómez",
+      "cargo": "Secretaria",
+      "empresaId": 1,
+      "email": "ana@example.com"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos López",
+      "cargo": "Ingeniero",
+      "email": "carlos@example.com",
+      "empresaId": 2
+    },
+    {
+      "id": "6",
+      "nombre": "reter",
+      "cargo": "esfse",
+      "empresaId": 2,
+      "email": "ef@asfe"
+    },
+    {
+      "id": 7,
+      "nombre": "Pablo Jiménez",
+      "cargo": "CEO",
+      "empresaId": 2,
+      "email": "pjimenezdelara@gmail.com"
+    }
+  ],
+  "empresas": [
+    {
+      "id": "1",
+      "nombre": "Empresa A",
+      "direccion": "Calle 123",
+      "telefono": "123456789"
+    },
+    {
+      "id": "2",
+      "nombre": "Empresa B",
+      "direccion": "Avenida 456",
+      "telefono": "987654321"
+    }
+  ]
+}

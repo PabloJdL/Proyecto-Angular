@@ -1,0 +1,24 @@
+<div class="container">
+    <h2>Lista de Empresas</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+                <th>Empleados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let empresa of empresasList | async">
+                <td>{{ empresa.id }}</td>
+                <td>{{ empresa.nombre }}</td>
+                <td>{{ empresa.direccion }}</td>
+                <td>{{ empresa.telefono }}</td>
+                <td><a [routerLink]="['/empleados', empresa.id]"><button>Ver empleados</button></a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,33 @@
+<div class="container">
+    <h2>Lista de Empleados</h2>
+
+    <button class="add-btn" [routerLink]="['/empleados/nuevo', empresaId]">Añadir Empleado</button>
+
+    <table *ngIf="empleados.length > 0; else noData">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Cargo</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let empleado of empleados">
+                <td>{{ empleado.id }}</td>
+                <td>{{ empleado.nombre }}</td>
+                <td>{{ empleado.cargo }}</td>
+                <td>{{ empleado.email }}</td>
+                <td class="btn-group">
+                    <button class="edit-btn" [routerLink]="['/empleados/editar', empleado.id]">Editar</button>
+                    <button class="delete-btn" (click)="borrarEmpleado(empleado.id)">Borrar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ng-template #noData>
+        <p>No hay empleados en esta empresa.</p>
+    </ng-template>
+</div>
