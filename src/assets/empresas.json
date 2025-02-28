@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "AlphaTech",
+    "direccion": "Calle 100, Ciudad A",
+    "telefono": "555-123-456",
+    "empleados": [1, 2]
+  },
+  {
+    "id": 2,
+    "nombre": "BetaSoft",
+    "direccion": "Avenida 200, Ciudad B",
+    "telefono": "555-789-012",
+    "empleados": [3, 4]
+  },
+  {
+    "id": 3,
+    "nombre": "Gamma Innovations",
+    "direccion": "Boulevard 300, Ciudad C",
+    "telefono": "555-345-678",
+    "empleados": [5]
+  }
+]

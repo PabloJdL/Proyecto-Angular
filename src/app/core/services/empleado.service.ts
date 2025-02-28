@@ -35,6 +35,7 @@ export class EmpleadoService {
   }
 
   getEmpleadoPorId(id: number): Observable<Empleado> {
+    const timestamp = new Date().getTime(); // Sirve para evitar la cache
     return this.http.get<Empleado>(`${this.apiUrl}/${id}`);
   }
 
@@ -42,7 +43,7 @@ export class EmpleadoService {
     return this.getEmpleados().pipe(
       map((empleados) => {
         const maxId =
-          empleados.length > 0 ? Math.max(...empleados.map((e) => e.id)) : 0;
+          empleados.length > 0 ? Math.max(...empleados.map(e => e.id)) : 0;
         empleado.id = maxId + 1;
         return empleado;
       }),

@@ -90,8 +90,8 @@ export class EmpleadoFormComponent implements OnInit {
         this.router.navigate(['/empleados', empleado.empresaId]);
       });
     } else {
-      this.empleadoService.agregarEmpleado(empleado).subscribe(() => {
-        this.router.navigate(['/empleados', empleado.empresaId]);
+      this.empleadoService.agregarEmpleado(empleado).subscribe(nuevoEmpleado => {
+        this.router.navigate(['/empleados', nuevoEmpleado.empresaId]);
       });
     }
   }

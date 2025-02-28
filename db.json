@@ -2,7 +2,7 @@
   "empleados": [
     {
       "id": "1",
-      "nombre": "Pepe",
+      "nombre": "Pablo2",
       "cargo": "Gerente",
       "empresaId": 1,
       "email": "pablo@example.com"
@@ -20,20 +20,6 @@
       "cargo": "Ingeniero",
       "email": "carlos@example.com",
       "empresaId": 2
-    },
-    {
-      "id": "6",
-      "nombre": "reter",
-      "cargo": "esfse",
-      "empresaId": 2,
-      "email": "ef@asfe"
-    },
-    {
-      "id": 7,
-      "nombre": "Pablo Jiménez",
-      "cargo": "CEO",
-      "empresaId": 2,
-      "email": "pjimenezdelara@gmail.com"
     }
   ],
   "empresas": [

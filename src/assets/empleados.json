@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lucía Fernández",
+    "cargo": "Ingeniera de Software",
+    "empresaId": 1,
+    "email": "lucia.fernandez@alphatech.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Miguel Rojas",
+    "cargo": "Analista de Datos",
+    "empresaId": 1,
+    "email": "miguel.rojas@alphatech.com"
+  },
+  {
+    "id": 3,
+    "nombre": "Andrea Gómez",
+    "cargo": "Diseñadora Gráfica",
+    "empresaId": 2,
+    "email": "andrea.gomez@betasoft.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Roberto Díaz",
+    "cargo": "Desarrollador Backend",
+    "empresaId": 2,
+    "email": "roberto.diaz@betasoft.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Sofía Martínez",
+    "cargo": "Gerente de Proyectos",
+    "empresaId": 3,
+    "email": "sofia.martinez@gammainnovations.com"
+  }
+]
